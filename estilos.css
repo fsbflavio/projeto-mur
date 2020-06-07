@@ -10,7 +10,7 @@ body {
 header {
     background-image: url(img/banner.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: top left;
     height: 80%;
 }
 
@@ -24,14 +24,14 @@ header h1 {
   }
   
 .section-voluntarios figure:hover {
-    transform: scale(1.15);
+    transform: scale(1.10);
   }
 
 .section-voluntarios img {
-    height: 360px;
+    /*height: 360px;
     width: 100%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center top;*/
     transition: transform 500ms;
   }
 
@@ -63,18 +63,5 @@ footer address:last-child {
 @media(min-width: 768px) {
 	#paineis-sobre {
 		margin-top: 0;	
-	}
-}
-
-@media(min-width: 992px) {
-	.hub-banner {
-		left: 0;
-		transform: translate(0, -80%);
-		width: 50%;
-	}
-
-	.hub-bannerWrapper {
-		position: relative;
-		height: 100%;
 	}
 }
