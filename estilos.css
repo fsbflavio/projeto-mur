@@ -19,6 +19,14 @@ header h1 {
     margin-bottom: 0px;
 }
 
+header img {
+    width: 100%;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
 .section-voluntarios figure {
     text-align: center;
   }
@@ -26,6 +34,7 @@ header h1 {
 .section-voluntarios figure:hover {
     transform: scale(1.10);
   }
+
 
 .section-voluntarios img {
     height: 320px;
