@@ -73,6 +73,10 @@ footer address:last-child {
 
 @media(min-width: 768px) {
 	#paineis-sobre {
-		margin-top: 0;	
+        margin-top: 0;
 	}
+}
+
+#paineis-sobre h3{
+    cursor: pointer;
 }
