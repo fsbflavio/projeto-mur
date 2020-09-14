@@ -31,13 +31,6 @@ header img {
     text-align: center;
   }
   
-/*
-.section-voluntarios figure:hover {
-    transform: scale(1.10);
-  }
-*/
-
-
 .section-voluntarios img {
     height: 320px;
     width: 100%;
@@ -74,7 +67,22 @@ footer address:last-child {
 @media(min-width: 768px) {
 	#paineis-sobre {
         margin-top: 0;
-	}
+    }
+    .thumbnail {
+        height: 600px;
+    }  
+}
+
+@media(min-width: 992px) {
+    .thumbnail {
+        height: 650px;
+    }  
+}
+
+@media(min-width: 1200px) {
+    .thumbnail {
+        height: 680px;
+    }  
 }
 
 #paineis-sobre h3{
